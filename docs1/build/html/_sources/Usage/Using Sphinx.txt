@@ -1,0 +1,9 @@
+Using
+-----
+
+Build using sphinx-build 
+with options 
+
+	-b html : select builder, here it is html
+	sourcedir builddir: Where you want to place the built documentation
+

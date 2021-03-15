@@ -1,0 +1,19 @@
+
+Sphinx Notes!
+========================================
+
+Sphinx uses
+	reStructured Text https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html
+	Markdown https://www.sphinx-doc.org/en/master/usage/markdown.html
+
+Configuration master information https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-extensions
+
+Quick Start Page with the links
+https://www.sphinx-doc.org/en/master/usage/quickstart.html
+
+Video Links to how reStructured works
+https://www.writethedocs.org/topics/#writing-words
+
+
+Questions:
+	Cna you build the toc tree structure automatically?

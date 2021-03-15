@@ -1,0 +1,56 @@
+
+This the main title
+===================
+the title is what is used in the Link in the table of comments. Make sure all title underbars are long enough (as long as the words).
+
+This is a subtitle - Also in the table of contents
+--------------------------------------------------
+
+.. _name:
+
+This is the name of a directive. It can be referenced later
+
+This is a subsubtitle - not in TOC
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+For just text, like latex, lines without a blank line between them
+count as the same paragraph. 
+
+Include a blank line to Have a new paragraph.
+
+
+
+How does variable work like this?
+
+This directive is how to set up a multiline indentation, "Block quote"
+	| Use tabs not spaces before the lines.
+	| Add a space after the line before text.
+
+This is how you create a sidebar
+The sidebar begins right under This line. 
+
+.. sidebar::  Sidebar Title
+
+	Sidebar should have an indentation.
+	
+		| Can have a double indentation too.
+	
+	Still indentationed
+
+The sidebar is over when you no longer use indentations.
+
+This is how you make a text block, begin and end with double period. 
+
+.. Note:: To ways of doing hyperlinks `First is with link in brackets <https://speakerdeck.com/ericholscher/writing-docs-a-beginners-guide-to-writing-documentation>`_ .
+
+second is link later `Link Later`_. Or can link back to :ref:`Previous directive <name>`.
+
+.. _Link Later: https://github.com/writethedocs/www/blob/master/docs/guide/writing/beginners-guide-to-docs.rst
+
+..
+
+
+This makes a codeblock with no title
+::
+
+	It can contain anything and is a 
+
