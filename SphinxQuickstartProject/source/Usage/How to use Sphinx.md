@@ -1,9 +1,13 @@
 TRECLabDocs
 
-**Installation**
+***Installation***
+**Windows:**
 Start by installing Python and the Sphinx package on your computer. (Follow: https://www.sphinx-doc.org/en/master/usage/installation.html)
-choco install sphinx
-choco install python --pre
+Can install python from https://www.python.org/, select custom installation and check "add python to environment valiables" and "install for all users"
+Then 'pip install -U sphinx'
+Also 'pip install myst-parser' to install a markdown processor for sphinx
+
+Packages located in c:\users\ben beiter\appdata\roaming\python\python39\site-packages
 
 Best quickstart to understand sphinx is (https://www.sphinx-doc.org/en/master/usage/quickstart.html)
 
@@ -36,3 +40,19 @@ source_suffix = {
     '.txt': 'restructuredtext',
     '.md': 'markdown',
 }
+
+
+
+
+
+
+
+
+https://readthedocs.org/
+https://docs.readthedocs.io/en/stable/development/install.html
+https://docs.readthedocs.io/en/stable/versions.html
+https://www.sphinx-doc.org/en/master/tutorial/index.html#structuring-your-documentation-across-multiple-pages
+https://www.sphinx-doc.org/en/master/usage/theming.html
+https://www.sphinx-doc.org/en/master/templating.html#templating
+https://www.writethedocs.org/guide/writing/beginners-guide-to-docs/
+https://holzhaus.github.io/sphinx-multiversion/master/index.html
